@@ -1,0 +1,11 @@
+{{>partials/header}}
+    <section data-aos="fade-right" class="login-clean" style="background: #ffffff;">
+        <form method="post" action="/userValidator">
+            <h2 class="visually-hidden">Login Form</h2>
+            <div class="illustration"><img src="assets/img/S8%20PRETO.png" style="width: 150px;height: 150px;"></div>
+            <div class="mb-3"><input class="form-control" type="text" name="user" placeholder="Usuário"></div>
+            <div class="mb-3"><input class="form-control" type="password" name="password" placeholder="Senha"></div>
+            <div class="mb-3"></div><div class="mb-3"><button class="btn btn-primary d-block w-100" type="submit" style="background: var(--bs-secondary);">Entrar</button>
+        </form>
+    </section>
+{{>partials/footer}}

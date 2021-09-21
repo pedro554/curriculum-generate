@@ -1,0 +1,15 @@
+{{>partials/header}}
+    <section class="register-photo" style="background: #ffffff;">
+        <div class="form-container">
+            <form data-aos="fade-right" action="/novoUsuario" method="post">
+                <h2 class="text-center"><strong>Criar conta</strong>.</h2>
+                <div class="mb-3"><input class="form-control" type="text" name="user" placeholder="Usuário" required></div>
+                <div class="mb-3"><input class="form-control" type="password" name="password" placeholder="Senha" required></div>
+                <div class="mb-3">
+                    <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox">Eu estou de acordo com os termos de privacidade.</label></div>
+                </div>
+                <div class="mb-3"><button class="btn btn-primary d-block w-100" type="submit" href="/novoUsuario" style="background: var(--bs-secondary);">Criar</button></div><a class="already" href="index.html">Se você já tem uma conta? Entrar.</a>
+            </form>
+        </div>
+    </section>
+{{>partials/footer}}
